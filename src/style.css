@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#container {
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#pembuka {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+#list button {
+  border: none;
+  cursor: pointer;
+}
+
+#list button.active {
+  border-bottom: 3px solid blue;
+  font-weight: bold;
+}
+
+#content {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#content p {
+  color: white;
+  text-align: center;
+}
